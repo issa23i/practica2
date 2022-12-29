@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktails and Dreams</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <div id="buscador" >
+            <!---->
+            <select name="formato" id="formato">
+                <option value="s">Buscar por nombre</option>
+                <option value="i">Buscar por ingrediente</option>
+                <option value="c">Listar categorías</option>
+                <option value="ii">Listar ingredientes</option>
+                <option value="g">Listar tipos de vasos</option>
+                <option value="a">Listar tipos alcohol </option>
+            </select>
+            <input type="text" name="s" id="s" >
+            <button class="neonText">Buscar</button>
+            
+        </div>
+    </main>
+    <section>
+        <div id="listados" class="neonText">
+
+        </div>
+    </section>
+    <section>
+        <div id="resultados">
+
+        </div>
+    </section>
+    <section>
+        <div id="detalle">
+            <div id="imagen"></div>
+            <div id="descripcion"></div>
+            <div id="receta"></div>
+        </div>
+    </section>
+    <div id="fijado"><h3>Cócktel random</h3></div>
+    <script src="assets/script.js" type="module"></script>
+</body>
+</html>
